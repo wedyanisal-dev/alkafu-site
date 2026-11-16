@@ -277,26 +277,26 @@ footer p+p{margin-top:.5rem}
 
 <section id="store">
   <div class="wrap">
-    <h2>بيانات المتجر</h2>
+    <details><summary>بيانات المتجر</summary><div class="in">
     <dl class="card">
       <dt>اسم المتجر</dt><dd>الكفو</dd>
       <dt>صاحب المتجر</dt><dd>صالح الودياني</dd>
       <dt>وثيقة العمل الحر / السجل التجاري</dt><dd>FL-375521698</dd>
       <dt>العنوان</dt><dd>المدينة المنورة، المملكة العربية السعودية</dd>
       <dt>النشاط</dt><dd>تطوير وبيع البرمجيات والتطبيقات</dd>
-    </dl>
+    </dl></div></details>
   </div>
 </section>
 
 <section id="contact">
   <div class="wrap">
-    <h2>تواصل</h2>
+    <details><summary>تواصل</summary><div class="in">
     <p class="lead">للدعم والاسترجاع والشكاوى. نرد خلال يومي عمل، من الأحد إلى الخميس.</p>
     <dl class="card" style="background:var(--panel);border-color:var(--line)">
       <dt>البريد</dt><dd><a href="mailto:Saleh.wed@icloud.com">Saleh.wed@icloud.com</a></dd>
       <dt>الجوال / واتساب</dt><dd><a href="tel:+966595203730" dir="ltr">0595203730</a></dd>
       <dt>إكس</dt><dd><a href="https://x.com/salehwedyani" dir="ltr">@salehwedyani</a></dd>
-    </dl>
+    </dl></div></details>
   </div>
 </section>
 
@@ -309,5 +309,6 @@ footer p+p{margin-top:.5rem}
   </div>
 </footer>
 
+<script>function o(){var e=document.getElementById(location.hash.slice(1)),d=e&&e.querySelector("details");if(d)d.open=true}addEventListener("hashchange",o);o()</script>
 </body>
 </html>
